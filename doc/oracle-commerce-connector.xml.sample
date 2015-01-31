@@ -1,0 +1,11 @@
+<!-- BEGIN_INCLUDE(oracle-commerce:perform-r-q-l-query) -->
+    <oracle-commerce:perform-r-q-l-query itemDescriptorName="user" repositoryComponentPath="/atg/userprofiling/ProfileAdapterRepository" RQLString="id=1" doc:name="OracleCommerce"/>
+<!-- END_INCLUDE(oracle-commerce:perform-r-q-l-query) -->
+
+<!-- BEGIN_INCLUDE(oracle-commerce:perform-r-q-l-count-query) -->
+    <oracle-commerce:perform-r-q-l-count-query itemDescriptorName="user" repositoryComponentPath="/atg/userprofiling/ProfileAdapterRepository" RQLString="id=1" doc:name="OracleCommerce"/>
+<!-- END_INCLUDE(oracle-commerce:perform-r-q-l-count-query) -->
+
+<!-- BEGIN_INCLUDE(oracle-commerce:get-repository-item) -->
+    <oracle-commerce:get-repository-item itemDescriptorName="user" repositoryComponentPath="/atg/userprofiling/ProfileAdapterRepository" repositoryItemId="1" doc:name="OracleCommerce"/>
+<!-- END_INCLUDE(oracle-commerce:get-repository-item) -->
